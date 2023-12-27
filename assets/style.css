@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Frank+Ruhl+Libre&family=Fraunces:opsz@9..144&family=Poppins&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+      font-family: 'Roboto', sans-serif;
+}
+:root{
+    --violet:#223354;
+    --skyblue:#19b4d6;
+    --grey:#f3f3f3;
+    --darkgrey:#e0e0e0;
+}
+.violet{
+    color: var(--violet);
+}
+.grey{
+    color: var(--grey)
+}
+.container{
+    overflow: hidden;
+}
+
+.carousal-container{
+    display: flex;
+    width: 100vw;
+}
+.carousal{
+    width: 100%;
+    margin-top: 20px;
+}
+.carousal-image{
+    width: 1200px;
+    height: 550px;
+    margin-left: 10px;
+    background-image: url(./trilliumlake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: -350px;
+    margin-left: 200px;
+    color:white;
+}
+.bc-1{
+    font-size: 35px;
+   color: white;
+
+}
+.bc-2{
+    margin-top: 20px;
+   width: 800px;
+}
+.banner-content>button{
+    all: unset;
+    background-color: var(--skyblue);
+    border-radius: 7px;
+    color: white;
+    width: 180px;
+    height: 55px;
+    margin-top: 15px;
+    text-align: center;
+}
+.carousal-buttons{
+    margin-left: 100px;
+  margin-top: -90px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center'
+}
+.carousal-bars{
+   display: flex;
+
+   margin-left:600px;
+   margin-top: 200px;
+}
+
+.bar-1{
+    width: 30px;
+    border-radius: 5px;
+
+}
+.bar{
+    width: 15px;
+    height: 15px;
+border-radius: 50%;
+    background-color: white;
+}
+.cards-container{
+    padding-left: 40px;
+   
+}
+.cards-container>p{
+    margin-top: 50px;
+   
+}
+.card-content{
+    padding: 20px;
+}
+.cards{
+    margin-top: 20px;
+display: flex;
+gap: 40px;
+}
+.card-1{
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(0,0,0,0.9) 0px 5px 15px;
+    border-radius: 7px;
+}
+.card-title{
+    font-size: 20px;
+}
+.card-info{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.card-2{
+    width: 300px;
+    height: 460px;
+    box-shadow: rgba(0,0,0,0.9) 0px 5px 15px;
+    border-radius: 7px;
+}
+.card-content>button{
+    all: unset;
+    width: 250px;
+    height: 50px;
+    background-color: var(--violet);
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.card-3{
+    width: 300px;
+    height: 460px;
+    border-radius: 7px;
+    background-image: url(/assets/beauty-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-3>.card-content{
+    margin-top: 260px;
+    color: white;
+}
+.card-3>.card-content>button{
+    all: unset;
+    width: 230px;
+    height: 50px;
+    background-color: var(--skyblue);
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.small-cards{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.sm{
+    width: 300px;
+    height: 200px;
+    box-shadow: rgba(0,0,0,0.9) 0px 5px 15px;
+    border-radius: 7px;
+
+
+}
+.sm-card-1{
+    background-color: var(--violet);
+    color: white;
+}
+.sm-card-2{
+    color: var(--violet);
+    border:2px solid var(--violet) 
+}
+.sm>.header{
+   padding-left: 10px;
+   padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.sm-card-3{
+    width: 280px;
+    height: 180px;
+}
+.card-sub{
+    color: var(--darkgrey);
+    font-size: 15px;
+}
+.sm-card-4{
+    width: 280px;
+    height: 230px;
+}
+.sm-card-4>.card-content>button{
+   margin-top: 40px;
+   width: 220px;
+   margin-left: 10px;
+}
