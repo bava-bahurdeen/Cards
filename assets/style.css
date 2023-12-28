@@ -79,6 +79,9 @@ body{
     justify-content: space-between;
     align-items: center'
 }
+.carousal-buttons>img{
+    width: 30px;
+}
 .carousal-bars{
    display: flex;
 
@@ -119,6 +122,10 @@ gap: 40px;
     box-shadow: rgba(0,0,0,0.9) 0px 5px 15px;
     border-radius: 7px;
 }
+.card-1>img{
+    width: 300px;
+    height: 260px;
+}
 .card-title{
     font-size: 20px;
 }
@@ -131,6 +138,10 @@ gap: 40px;
     height: 460px;
     box-shadow: rgba(0,0,0,0.9) 0px 5px 15px;
     border-radius: 7px;
+}
+.card-2>img{
+    width: 300px;
+    height: 260px;
 }
 .card-content>button{
     all: unset;
